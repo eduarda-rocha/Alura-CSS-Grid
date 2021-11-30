@@ -1,0 +1,12 @@
+.populares__card___corpo{
+    display: grid;
+    
+    grid-row-gap: .5rem;
+    grid-area: card-corpo;
+    grid-template-areas: 
+        "card-cabecalho"
+        "card-conteudo";
+    grid-template-rows: 50px auto;
+
+    padding: .75rem;
+}
