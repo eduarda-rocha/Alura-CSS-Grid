@@ -14,3 +14,6 @@
     width: calc(20% - 1rem);
 }
 
+.populares__card:last-child{
+    margin-right: 0;
+}
